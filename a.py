@@ -1,5 +1,5 @@
 
-#Importing all the necessary libraries to form the alarm clock:
+#Import   libraries to form the alarm clock:
 from tkinter import *
 import datetime
 import time
@@ -25,7 +25,7 @@ clock.geometry("400x400")
 time_format=Label(clock, text= "Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
 addTime = Label(clock,text = "Hour  Minutes   Seconds",font=60).place(x = 110)
 setYourAlarm = Label(clock,text = "Set alarm time",fg="black",relief = "solid",font=("Algerian",7,"bold")).place(x=0, y=29)
-# The Variables we require to set the alarm(initialization):
+# initialize variables
 hour = StringVar()
 min = StringVar()
 sec = StringVar()
